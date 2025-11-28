@@ -19,7 +19,7 @@ public class BaseTests {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         goHome();
     }
-    @BeforeMethod
+//    @BeforeMethod
     public void goHome(){
         driver.get("https://toolsqa.com/");
         homePage = new HomePage(driver);

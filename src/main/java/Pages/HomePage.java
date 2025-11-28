@@ -39,6 +39,6 @@ public class HomePage {
         return new DemoSitePage(driver);
     }
     private void clickLink(By element){
-        driver.findElement(seleniumTrainingPage).click();
+        driver.findElement(element).click();
     }
 }
