@@ -1,5 +1,7 @@
 package Pages;
 
+// Created a dev branch and added a comment for being able to create a pull request
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
